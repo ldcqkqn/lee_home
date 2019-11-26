@@ -6,20 +6,23 @@
         <script src="leedongchan.js"></script>
     </head>
     <body>
-        <header>
-            <div class="header_bar">이동찬의 홈페이지</div>
-            <div class="header_image">이미지</div>
-        </header>
-        <nav>
-            <ul>
-                <li onclick="navClick('practice')">연습하기</li>
-                <li onclick="navClick('make')">만들어보기</li>
-                <li onclick="navClick('define')">용어정리</li>
-                <li onclick="navClick('check')">미정..</li>
-            </ul>
-        </nav>
-        
-        <div>공부한내용?어떤걸 넣을지 모르겠다...</div>
+        <div class="main_content">
+            <header>
+                <nav class="nav_top_menu">
+                    <ul>
+                        <li>승부사 이미지</li>
+                        <li onclick="navClick('practice')">연습하기</li>
+                        <li onclick="navClick('make')">만들어보기</li>
+                        <li onclick="navClick('define')">용어정리</li>
+                        <li onclick="navClick('check')">미정..</li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="content_area">
+                <div class="article_area">article 영역</div>
+                <div class="aside_area">aside 영역</div>
+            </div>
+        </div>
         <div>footer</div>
     </body>
 </html>
